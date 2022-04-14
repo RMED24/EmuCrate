@@ -1,26 +1,123 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
     <meta charset="utf-8">
     <title>EmuRun Manager</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header></header>
-    
-      <div class="sidenav">
-        <a href="#">Wii</a>
-        <a href="#">Switch</a>
-      </div>
 
-      
-      <main>
-      <h1 class="RMCE01">Mario Kart Wii</h1>
 
-      <div><img class="GameScreenshots" src="https://preview.redd.it/3qpwxmy92tk61.jpg?width=640&crop=smart&auto=webp&s=3d0c966969b69ff896595d5a99b15039983c009f" alt="3DS Sex" width="40%"></main>
-      <button class="button button1">Green</button></div>
-      
-      </main>
-    </body>
-    <footer></footer>
-  </html>
+    <div class="sidenav">
+      <a href="#">Wii</a>
+      <a href="#">Switch</a>
+    </div>
+
+
+    <style>
+      /* Always on each page */
+        div {
+      padding-top: 40px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 0px;
+    }
+
+    .sidenav {
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(8, 8, 8);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }  
+  
+  .sidenav a {
+    padding: 8px 10px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  body {background-color: rgb(20, 20, 20);}
+h1   {font-family:Arial, Helvetica, sans-serif; color: rgb(255, 255, 255);}
+p    {font-family:Arial, Helvetica, sans-serif; color: rgb(185, 185, 185);}
+a    {font-family: Arial, Helvetica, sans-serif;}
+  
+
+
+  
+  .aligned {
+          display: flex;
+          padding-left: 200px;
+          align-items: center;
+      }
+
+
+/* Always on each page */
+
+
+  
+        button{
+     border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  width: 95%;
+  background-color: black;
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 15%;
+    width: 50%;
+  }
+  
+  .grid-item {
+    background-color: rgb(20, 20, 20);
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+
+    </style>
+</head>
+  
+<body>
+    <div class="aligned">
+        <img src=
+"https://preview.redd.it/3qpwxmy92tk61.jpg?width=640&crop=smart&auto=webp&s=3d0c966969b69ff896595d5a99b15039983c009f""
+            width="50%" alt="">
+             
+           <div class="grid-container"> 
+
+            
+            <div class="grid-item"> 
+            <a href="https://www.google.com/search?client=firefox-b-d&q=launch"><button class="button1">Launch</button></a>
+            </div>
+
+            <div class="grid-item"> 
+              <a href="https://www.google.com/search?client=firefox-b-d&q=launch"><button class="button1">Settings</button></a>
+              </div>
+
+          
+          </div>
+    </div>
+</body>
+
+
+</html>

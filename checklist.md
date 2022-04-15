@@ -13,3 +13,5 @@ Use game IDs such as 'RMC' for Mario Kart Wii
 Support for Ryujinx emulator for now
 
 Allow people to download emulators in the page (just ryujinx again)
+
+Allow A API To Collect Game Covers And Detect Games Metadata (Like Dolphin Does)

@@ -1,2 +1,2 @@
-console.log('Hello World');
-alert("Hello, World!");
+console.log('Zack Has No Bitches');
+alert("Zack Has No Bitches");

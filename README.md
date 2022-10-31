@@ -10,3 +10,5 @@ This project is completely free and was made because there's barely any emulator
 We also have a checklist.md file which will be updated with planned features in the future.
 
 Support is appreciated!
+
+This was originally licensed as GPLv3, but some of the sources have changed license since so this project will now be adjusted to the more enticing MIT license

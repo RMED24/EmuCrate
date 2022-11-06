@@ -5,8 +5,8 @@ Name=Yuzu
 GenericName=Switch Emulator
 Comment=Nintendo Switch video game console emulator
 Icon=/home/dummy/.local/share/icons/yuzu-emu.png
-TryExec=/home/dummy/.local/share/yuzu-emu/yuzu-x64_86.AppImage
-Exec=GDK_BACKEND=x11 /home/dummy/.local/share/yuzu-emu/yuzu-x64_86.AppImage
+TryExec=/home/dummy/.local/share/yuzu-emu/yuzu-x86_64.AppImage
+Exec=GDK_BACKEND=x11 /home/dummy/.local/share/yuzu-emu/yuzu-x86_64.AppImage
 Categories=Game;Emulator;
 MimeType=application/x-nx-nro;application/x-nx-nso;application/x-nx-nsp;application/x-nx-xci;
 Keywords=Switch;Nintendo;
